@@ -1,0 +1,214 @@
+/* globals */
+
+.question_container {
+}
+
+.placeholder {
+  margin: 3rem 0;
+}
+
+/* main feedback component */
+
+.main {
+  padding: 3rem;
+  max-width: 1200px;
+  font-size: 1.1rem;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header {
+  text-align: left;
+}
+
+.username {
+  color: var(--exovePurple);
+}
+
+.role {
+  color: var(--exoveOrange);
+}
+
+.instructionsTitle {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 2rem;
+}
+
+.instructions {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  word-spacing: 2.5px;
+  line-height: 1.6;
+}
+
+.instructionsContainer {
+  margin: 3rem 0 1rem;
+  padding: 4rem;
+  background-color: var(--lightGray);
+}
+
+.questionContainer {
+  text-align: left;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.catQuest {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Boolean file css */
+
+.bolContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bolQuestion {
+  width: 40%;
+}
+
+.bolComponent {
+  padding: 0.4rem;
+  width: 50%;
+  display: flex;
+}
+
+.bolDecision {
+  padding: 0.4rem;
+  width: 100%;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  transition: all 0.4s ease-out;
+}
+
+.bolInitial {
+  background: var(--lightGray);
+  padding-left: 40%;
+}
+
+.bolTrue {
+  background: var(--exoveGreen);
+}
+
+.bolFalse {
+  background: var(--exoveRed);
+}
+
+.bolCircle {
+  padding: 0.2rem;
+  width: 100px;
+  height: 100%;
+  border-radius: 100px;
+  /* border-radius: 20%; */
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.bolInitial > p {
+  background: #d5d7d5d1;
+}
+
+/* question range css */
+
+.rLabel {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.rSpan {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.rMainDiv {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rMainDiv > p {
+  width: 55%;
+}
+
+.rAnswer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  border-radius: 100px;
+  align-items: center;
+  max-height: 5px;
+}
+
+/* String questions css */
+.sMain {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.sTextarea {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Button */
+
+.button {
+  width: 8rem;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+.loginButton {
+  background-color: #45af76;
+  box-shadow: 4px 4px black;
+  color: white;
+  position: absolute;
+  border: none;
+  bottom: 0;
+  right: 0;
+}
+
+.loginButton:disabled {
+  background-color: #b3b3b3;
+  pointer-events: none;
+}
+
+.loginButton:active {
+  background-color: black;
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+.formElements {
+  display: flex;
+  justify-content: flex-end;
+}

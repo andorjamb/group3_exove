@@ -1,0 +1,21 @@
+.logo_link {
+  background-color: black;
+  height: 100%;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo {
+  background-color: black;
+}
+
+.logo_link path {
+  transition: 0.3s ease;
+}
+
+.logo_link:hover path {
+  fill: var(--exovePurple);
+}

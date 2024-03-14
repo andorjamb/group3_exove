@@ -1,5 +1,9 @@
 {
-    "sendAllRequests": "Lähetä kaikki pyynnöt",
-    "dashboard": "Hallintapaneeli",
-    "userview": "To user view"
+  "sendAllRequests": "Lähetä kaikki pyynnöt",
+  "dashboard": "Hallintapaneeli",
+  "userview": "Käyttäjänäkymään",
+  "competenceManager": "Kompetenssipäällikkö",
+  "projectManager": "Projektipäällikkö",
+  "subordinates": "Alaiset",
+  "colleagues": "Kollegat"
 }

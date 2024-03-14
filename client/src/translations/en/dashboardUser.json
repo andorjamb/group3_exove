@@ -1,5 +1,7 @@
 {
-    "title": "Choose at least 5 colleagues whom you have worked closely with to request feedback from",
-    "done": "Done",
-    "submit": "Submit"
+  "title": "Choose at least 5 colleagues whom you have worked closely with to request feedback from",
+  "done": "Done",
+  "submit": "Submit",
+  "picksSubmitted": "You have submitted your picks already, thankyou!",
+  "picksNotSubmitted": ""
 }

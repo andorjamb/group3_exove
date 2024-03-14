@@ -1,37 +1,51 @@
 .card {
-    box-sizing: border-box;
-    justify-content: space-evenly;
-    height: 6rem;
-    display: flex;
-    border: 2px solid black;
-    align-items: center;
-    padding: 0.5rem;
-    width: 18rem;
-    cursor: pointer;
+  box-sizing: border-box;
+  height: 6rem;
+  display: flex;
+  gap: 1rem;
+  border: 1px solid black;
+  align-items: center;
+  text-align: left;
+  padding: 0.75rem;
+  width: 18rem;
+  cursor: pointer;
+  background-color: white;
+}
+
+.unclickable {
+  cursor: auto;
 }
 
 .selected {
-    background-color: var(--exovePurple);
-    color: white;   
-    border: none;
+  background-color: var(--exovePurple);
+  color: white;
+  border: none;
+}
+
+.avatar_container {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  background-color: black;
+  overflow: hidden;
 }
 
 .avatar {
-    height: 80%;
-    width: auto;
-    clip-path: circle();
-    background-color: black;
-    border-radius: 50%;
-    border: 3px solid var(--exoveGreen);
+  display: inline;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }
 
-.h3, .h5 {
-margin: 0;
+.name,
+.title {
+  margin: 0;
+  max-width: 10.5rem;
 }
 
-@media screen and (max-width:940px) {
-    .card {
-        width: 16.5rem; 
-    }
+@media screen and (max-width: 940px) {
+  .card {
+    width: 16.5rem;
+  }
 }
-    

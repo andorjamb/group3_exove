@@ -1,6 +1,6 @@
 {
-    "loginTitle": "Login",
-    "signIn": "Login",
-    "userName": "Userame",
-    "password": "Password"
+  "loginTitle": "Login",
+  "signIn": "Login",
+  "username": "Username",
+  "password": "Password"
 }

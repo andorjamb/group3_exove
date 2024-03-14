@@ -1,0 +1,130 @@
+.container {
+  width: 70vw;
+  margin: auto;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.container h1 {
+  margin: 2rem 0;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.h3 {
+  text-align: left;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select {
+  width: 16rem;
+  background-color: var(--paleGray);
+  border: none;
+  padding: 0.5rem;
+}
+
+.input,
+.noedit {
+  width: 100%;
+  background-color: var(--paleGray);
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0;
+  text-align: left;
+  white-space: pre-wrap;
+  height: auto;
+}
+
+.noedit {
+  padding: 2rem;
+}
+
+.accordionContainer {
+  border: 1px solid black;
+  line-height: 2.5rem;
+}
+
+.accordionTitle {
+  display: flex;
+  background-color: var(--paleGray);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.accordionItem {
+  height: auto;
+}
+
+.materialIcons {
+  font-family: "Material Symbols Outlined";
+  font-size: 1.75rem;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.iconDiv {
+  background-color: black;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.accordionContent {
+  margin-top: 0;
+  padding: 1rem;
+  min-height: 4rem;
+  display: block;
+  line-height: normal;
+  text-align: left;
+}
+
+.input[type="checkbox"] {
+  height: 1.2rem;
+  width: 1.2rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+  accent-color: var(--exovePurple);
+}
+
+.fieldset {
+  border: none;
+}
+
+.fieldset li::marker {
+  display: none;
+}
+
+.addButton {
+  width: 80%;
+}
+
+.greenButton {
+  background-color: var(--exoveGreen);
+  box-shadow: 4px 4px black;
+  transition: all ease-in-out 0.2s;
+  color: white;
+  float: right;
+}
+
+.greenButton:active {
+  background-color: black;
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+.howTo {
+  font-style: italic;
+  font-weight: 700;
+}

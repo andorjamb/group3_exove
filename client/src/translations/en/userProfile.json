@@ -1,5 +1,9 @@
 {
-    "sendAllRequests": "Send all requests",
-    "dashboard": "Hallintapaneeli",
-    "userview": "To user view"
+  "sendAllRequests": "Send out all review requests",
+  "dashboard": "Dashboard",
+  "userview": "To user view",
+  "competenceManager": "Competence Manager",
+  "projectManager": "Project Manager",
+  "subordinates": "Subordinates",
+  "colleagues": "Colleagues"
 }

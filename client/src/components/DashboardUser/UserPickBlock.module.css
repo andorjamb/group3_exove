@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  text-align: left;
+}
+
+.search_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.selectionGrid {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

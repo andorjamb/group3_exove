@@ -1,6 +1,6 @@
 //React
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 //Styling
 import styles from "./AdminNav.module.css";
@@ -10,25 +10,47 @@ import "../../translations/i18next";
 import { useTranslation } from "react-i18next";
 
 const AdminNav = () => {
-  const { t, i18n } = useTranslation(["header"]);
+  const { t } = useTranslation(["header"]);
   return (
     <nav className={styles.nav}>
       <ul className={styles.ul}>
-        <li className={styles.li}>
-          <a className={styles.a} href="/dashboard">
-            {t("dashboard")}
-          </a>
-        </li>
-        <li className={styles.li}>
-          <a className={styles.a} href="/admin/template">
-            {t("templates")}
-          </a>
-        </li>
-        <li className={styles.li}>
-          <a className={styles.a} href="/">
-            {t("userView")}
-          </a>
-        </li>
+        <NavLink
+          className={({ isActive, isPending }) =>
+            isPending
+              ? `${styles.navlink} ${styles.pending}`
+              : isActive
+              ? `${styles.navlink} ${styles.active}`
+              : styles.navlink
+          }
+          to="/dashboard"
+        >
+          <li className={styles.li}>{t("dashboard")}</li>
+        </NavLink>
+
+        <NavLink
+          className={({ isActive, isPending }) =>
+            isPending
+              ? `${styles.navlink} ${styles.pending}`
+              : isActive
+              ? `${styles.navlink} ${styles.active}`
+              : styles.navlink
+          }
+          to="/template"
+        >
+          <li className={styles.li}>{t("templates")}</li>
+        </NavLink>
+        <NavLink
+          className={({ isActive, isPending }) =>
+            isPending
+              ? `${styles.navlink} ${styles.pending}`
+              : isActive
+              ? `${styles.navlink} ${styles.active}`
+              : styles.navlink
+          }
+          to="/userview"
+        >
+          <li className={styles.li}>{t("userView")}</li>
+        </NavLink>
       </ul>
     </nav>
   );

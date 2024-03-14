@@ -1,55 +1,37 @@
-.container {
-    height: 100%;
-    width: 100%;
+.user_dashboard {
+  padding: 2rem;
+  width: 80%;
+  max-width: 1200px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.user_dashboard h1 {
+  margin: 1.5rem 0 2rem;
 }
 
-.mainContent {
-    background-color: white;
-    width: 100vw;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
+.feedbacks_needed_list {
+  margin-top: 1.5rem;
+  text-align: left;
+  list-style-position: inside;
+  font-size: 1.2rem;
+  line-height: 2;
 }
 
-
-.submitButton {
-    background-color: var(--exoveGreen);
-    color: white;
-    float: right;
-    height: 2rem;
-    width: 5rem; 
-    text-transform: uppercase;
-    font-weight: 800;
-    border: none;
-}
-.selectionGrid {
-    display: grid;
-    width: 100%;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    background-color: white;
-
+.feedbacks_needed_list a {
+  text-decoration: underline;
 }
 
-@media screen and (max-width: 940px) {
-    .selectionGrid {
-        grid-gap: 1.5rem;
-    }
+.keyword {
+  color: var(--exovePurple);
 }
 
-
-@media screen and (max-width: 840px) {
-    .selectionGrid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1rem;
-    }
+.username {
+  font-weight: 800;
 }
 
-@media screen and (max-width: 640px) {
-    .selectionGrid {
-        grid-template-columns: 1fr;
-        justify-content: center;
-    }
+.user_dashboard_block {
+  background-color: var(--paleGray);
+  padding: 3rem 4rem;
 }

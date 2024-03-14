@@ -2,10 +2,10 @@ import React from "react";
 
 //Components
 import FeedbackForm from "../../components/FeedbackForm/FeedbackForm";
-
+import styles from "./Feedback.module.css";
 const Feedback = () => {
   return (
-    <div>
+    <div className={styles.feedback}>
       <FeedbackForm />
     </div>
   );

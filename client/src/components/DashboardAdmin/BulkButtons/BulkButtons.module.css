@@ -1,0 +1,44 @@
+.buttons_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.buttons_container button {
+  font-weight: 400;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.2 ease;
+}
+
+.buttons_container button:hover {
+  filter: brightness(90%);
+}
+
+.request {
+  background-color: var(--exovePurple);
+  color: white;
+  text-transform: none;
+}
+
+.remind {
+  background-color: var(--darkGray);
+  color: white;
+  text-transform: none;
+}
+
+.approve {
+  background-color: var(--exoveGreen);
+  color: white;
+  text-transform: none;
+}
+
+.warning {
+  background-color: var(--exoveOrange);
+  color: white;
+  text-transform: none;
+}

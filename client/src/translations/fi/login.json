@@ -1,6 +1,6 @@
 {
-    "loginTitle": "Kirjaudu sisään",
-    "signIn": "Kirjaudu",
-    "userName": "käyttäjätunnus",
-    "password": "Salasana"
+  "loginTitle": "Kirjaudu sisään",
+  "signIn": "Kirjaudu",
+  "username": "Käyttäjätunnus",
+  "password": "Salasana"
 }

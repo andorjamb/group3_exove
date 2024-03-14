@@ -1,5 +1,7 @@
 {
-    "title": "Valitse vähintään 5 kollegaa, joilta haluat pyytää palautetta",
-    "done": "Hyväksy",
-    "submit": "Lähetä"
+  "title": "Valitse vähintään 5 kollegaa, joilta haluat pyytää palautetta",
+  "done": "Hyväksy",
+  "submit": "Lähetä",
+  "picksSubmitted": "Olet jo lähettänyt valintasi, kiitos!",
+  "picksNotSubmitted": ""
 }

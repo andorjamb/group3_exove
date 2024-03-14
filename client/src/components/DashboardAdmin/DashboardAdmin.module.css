@@ -1,0 +1,61 @@
+.dashboard_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 1rem;
+}
+
+.dashboard_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 80%;
+  max-width: 1400px;
+  min-width: 1000px;
+}
+
+.search_buttons_container {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr;
+}
+
+.search_buttons_container:first-child {
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th {
+  background-color: var(--paleGray);
+  padding: 0.7rem 0.3rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.table th:first-child {
+  padding-left: 2.2rem;
+  text-align: left;
+}
+
+.table th:nth-child(2),
+.table th:nth-child(3),
+.table th:nth-child(4),
+.table th:nth-child(5) {
+  width: 3rem;
+}
+
+.table td {
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.table th:nth-child(6),
+.table th:nth-child(7),
+.table th:nth-child(8) {
+  padding: 0.3rem 2rem;
+}

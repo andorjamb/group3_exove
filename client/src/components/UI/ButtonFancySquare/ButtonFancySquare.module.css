@@ -1,0 +1,55 @@
+.fancyButton {
+  height: 3rem;
+  cursor: pointer;
+  background-color: var(--lightGray);
+  box-shadow: 5px 5px black;
+  color: white;
+  position: absolute;
+  transition: all ease-in-out 0.25s;
+  border: none;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+}
+
+.fancyButton:hover {
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+.purple {
+  background-color: var(--exovePurple);
+}
+
+.green {
+  background-color: var(--exoveGreen);
+}
+
+.lightGray {
+  background-color: var(--lightGray);
+  color: black;
+}
+
+.fancyButton[disabled] {
+  background-color: white;
+  color: var(--darkGray);
+  box-shadow: 5px 5px var(--darkGray);
+  cursor: auto;
+}
+
+.fancyButton[disabled]:hover {
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+.medGray {
+  color: black;
+  background-color: var(--medGray);
+}
+
+.darkGray {
+  background-color: var(--medBlack);
+}

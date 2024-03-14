@@ -1,6 +1,8 @@
 {
-    "templates": "Lomakemallit",
-    "dashboard": "Hallintapaneeli",
-    "userView": "Käytäjäntiliin",
-    "logout": "Kirjaudu ulos"
+  "templates": "Lomakemallit",
+  "surveys": "Palautekyselyt",
+  "dashboard": "Hallintapaneeli",
+  "userView": "Käytäjäntiliin",
+  "logout": "Kirjaudu ulos",
+  "reports": "Raportteja"
 }

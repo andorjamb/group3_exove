@@ -1,0 +1,99 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  text-align: left;
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  margin: 3rem auto;
+  height: 100%;
+  width: 80vw;
+  border: 1px solid black;
+}
+
+.profileHeader {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 4fr;
+  background: var(--paleGray);
+  width: 100%;
+  height: 200px;
+  border: none;
+  margin: none;
+}
+
+.headerTitleDiv {
+  padding: 1rem 1.5rem;
+  grid-column: 2 / 4;
+}
+
+.avatarDiv {
+  padding: 1.5rem;
+  margin: auto;
+}
+.avatarLarge {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  grid-row: 1 / 3;
+  border-radius: 50%;
+  border: 3px solid var(--exoveGreen);
+}
+
+.headerButtonDiv {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.selectionContainer {
+  width: 100%;
+  height: auto;
+}
+
+.selectionBlock {
+  margin: 1.5rem 2rem;
+}
+
+.buttonOrange {
+  height: 2rem;
+  width: 20rem;
+  background-color: var(--exoveOrange);
+  cursor: pointer;
+  box-shadow: 4px 4px black;
+  transition: all ease-in-out 0.2s;
+}
+
+.buttonOrange:active {
+  background-color: black;
+  transform: translate(4px, 4px);
+  box-shadow: none;
+  color: white;
+}
+
+.backButton {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  top: 6rem;
+  left: 1.5rem;
+}
+
+.backButton:active {
+  background-color: var(--paleGray);
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    width: 100vw;
+    border: none;
+  }
+}

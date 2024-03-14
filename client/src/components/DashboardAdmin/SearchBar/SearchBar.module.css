@@ -1,0 +1,24 @@
+.search_container {
+  display: flex;
+  width: 100%;
+}
+
+.search_container input {
+  width: 100%;
+  height: 2.5rem;
+}
+
+.search_container button {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2 ease;
+}
+
+.search_container button:hover {
+  filter: brightness(90%);
+}
